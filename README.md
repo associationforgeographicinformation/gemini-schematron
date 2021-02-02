@@ -2,7 +2,7 @@
 The Schematron files in this repository are to support GEMINI 2.3 validation.
 
 There are two files:
-* GEMINI 2.3 Schematron Schema: tests requirements of GEMINI which are stricter than those of ISO 19139:2007. Reports triggered by these rules should be treated as validation errors.
+* GEMINI 2.3 Schematron Schema: tests requirements of GEMINI that are stricter than those of ISO 19139:2007. Reports triggered by these rules should be treated as validation errors.
 
 * GEMINI 2.3 supplemental: tests recommedations of GEMINI. Reports triggered by these rules should be treated as warnings, or hints for possible improvement.
 
