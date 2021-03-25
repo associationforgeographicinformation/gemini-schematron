@@ -11,3 +11,5 @@ They were prepared in 2018 by BGS under contract to AGI, funded by Defra, and ar
 The home of GEMINI is https://www.agi.org.uk/gemini/
 
 Note: Defra sponsored creation of Schematron files to support validation of the older GEMINI 2.2, which are still available via https://guidance.data.gov.uk/publish_and_manage_data/harvest_or_add_data/harvest_data/gemini/#iso-19139.
+
+For an explanation of the labels used for issues, see https://github.com/agiorguk/gemini/blob/main/README.md
