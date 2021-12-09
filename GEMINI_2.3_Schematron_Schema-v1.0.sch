@@ -72,7 +72,8 @@
                 ~ moved first sch:p to beneath last sch:ns, for compliance to RELAX NG schema for Schematron
                 ~ moved sch:lets for debug reporting to top, for compliance to RELAX NG schema for Schematron
     2018-07-03  ~ Release Candidate 9
-                ~ updated reference XML files to location on https://agi.org.uk/ 
+                ~ updated reference XML files to location on https://agi.org.uk/
+    2021-12-09  ~ updated reference XML files to location on GitHub 
 -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt" schemaVersion="1.2">
   <sch:title>UK GEMINI Standard Draft Version 2.3</sch:title>
@@ -107,9 +108,9 @@
     value="'Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services'"/>
   <!-- External documents -->
   <sch:let name="defaultCRScodes"
-    value="document('https://agi.org.uk/images/xslt/d4.xml')"/>
+    value="document('https://raw.githubusercontent.com/agiorguk/gemini-schematron/main/resources/d4.xml')"/>
   <sch:let name="charSetCodes"
-    value="document('https://agi.org.uk/images/xslt/MD_CharacterSetCode.xml')"/>
+    value="document('https://raw.githubusercontent.com/agiorguk/gemini-schematron/main/resources/MD_CharacterSetCode.xml')"/>
   <!-- Text for validation reporting -->
   <sch:let name="LPreportsupplement"
     value="'This test may be called by the following Metadata Items: 3 - Dataset Language and 33 - Metadata Language'"/>
