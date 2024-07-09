@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpatialDataServiceCategory>
+    <cat xml:lang="en" id="" label="" def=""> </cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanInteractionService"
+        label="100-Geographic human interaction services" def="">humanInteractionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanCatalogueViewer"
+        label="101-Catalogue viewer"
+        def="Client service that allows a user to interact with a catalogue to locate, browse, and manage metadata about geographic data or geographic services."
+        >humanCatalogueViewer</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanGeographicViewer"
+        label="102-Geographic viewer"
+        def="Client service that allows a user to view one or more feature collections or coverages."
+        >humanGeographicViewer</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanGeographicSpreadsheetViewer"
+        label="103-Geographic spreadsheet viewer"
+        def="Client service that allows a user to interact with multiple data objects and to request calculations similar to an arithmetic spreadsheet but extended to geographic data."
+        >humanGeographicSpreadsheetViewer</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanServiceEditor"
+        label="104-Service editor"
+        def="Client service that allows a user to control geographic processing services."
+        >humanServiceEditor</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanChainDefinitionEditor"
+        label="105-Chain definition editor"
+        def="Provides user interaction with a chain definition service."
+        >humanChainDefinitionEditor</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanWorkflowEnactmentManager"
+        label="106-Workflow enactment manager"
+        def="Provides user interaction with a workflow enactment service."
+        >humanWorkflowEnactmentManager</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanGeographicFeatureEditor"
+        label="107-Geographic feature editor"
+        def="Geographic viewer that allows a user to interact with feature data."
+        >humanGeographicFeatureEditor</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanGeographicSymbolEditor"
+        label="108-Geographic symbol editor"
+        def="Client service that allows a human to select and manage symbol libraries."
+        >humanGeographicSymbolEditor</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanFeatureGeneralizationEditor"
+        label="109-Feature generalisation editor"
+        def="Client service that allows a user to modify the cartographic characteristics of a feature or feature collection by simplifying its visualisation, while maintaining its salient elements – the spatial equivalent of simplification."
+        >humanFeatureGeneralizationEditor</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/humanGeographicDataStructureViewer"
+        label="110-Geographic data-structure viewer"
+        def="Client service that allows a user to access part of data set to see its internal structure."
+        >humanGeographicDataStructureViewer</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoManagementService"
+        label="200-Geographic model/information management service" def=""
+        >infoManagementService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoFeatureAccessService"
+        label="201-Feature access service"
+        def="Service that provides a client access to and management of a feature store."
+        >infoFeatureAccessService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoMapAccessService"
+        label="202-Map access service"
+        def="Service that provides a client access to a geographic graphics, i.e. pictures of geographic data."
+        >infoMapAccessService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoCoverageAccessService"
+        label="203-Coverage access service"
+        def="Service that provides a client access to and management of a coverage store."
+        >infoCoverageAccessService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoSensorDescriptionService"
+        label="204-Sensor description service"
+        def="Service that provides the description of a coverage sensor, including sensor location and orientation, as well as the sensor’s geometric, dynamic, and radiometric characteristics for geo-processing purposes."
+        >infoSensorDescriptionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoProductAccessService"
+        label="205-Product access service"
+        def="Service that provides access to and management of a geographic product store."
+        >infoProductAccessService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoFeatureTypeService"
+        label="206-Feature type service"
+        def="Service that provides a client to access to and management of a store of feature type definitions."
+        >infoFeatureTypeService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoCatalogueService"
+        label="207-Catalogue service"
+        def="Service that provides discovery and management services on a store of metadata about instances."
+        >infoCatalogueService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoRegistryService"
+        label="208-Registry Service"
+        def="Service that provides access to store of metadata about types."
+        >infoRegistryService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoGazetteerService"
+        label="209-Gazetteer service"
+        def="Service that provides access to a directory of instances of a class or classes of real-world phenomena containing some information regarding position."
+        >infoGazetteerService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoOrderHandlingService"
+        label="210-Order handling service"
+        def="Service that provides a client with the ability to order products from a provider."
+        >infoOrderHandlingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoStandingOrderService"
+        label="211-Standing order service"
+        def="Order handling service that allows a user to request that a product over a geographic area be disseminated when it becomes available."
+        >infoStandingOrderService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/taskManagementService"
+        label="300-Geographic workflow/task management services" def="">taskManagementService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/chainDefinitionService"
+        label="301-Chain definition service"
+        def="Service to define a chain and to enable it to be executed by the workflow enactment service."
+        >chainDefinitionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/workflowEnactmentService"
+        label="302-Workflow enactment service"
+        def="The workflow enactment service interprets a chain and controls the instantiation of services and sequencing of activities."
+        >workflowEnactmentService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/subscriptionService"
+        label="303-Subscription service"
+        def="Service to allow clients to register for notification about events."
+        >subscriptionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialProcessingService"
+        label="400-Geographic processing services – spatial" def="">spatialProcessingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialCoordinateConversionService"
+        label="401-Coordinate conversion service"
+        def="Service to change coordinates from one coordinate system to another coordinate system that is related to the same datum."
+        >spatialCoordinateConversionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialCoordinateTransformationService"
+        label="402-Coordinate transformation service"
+        def="Service to change coordinates from a coordinate reference system based on one datum to a coordinate reference system based on a second datum."
+        >spatialCoordinateTransformationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialCoverageVectorConversionService"
+        label="403-Coverage/vector conversion service"
+        def="Service to change the spatial representation from a coverage schema to a vector schema, or vice versa."
+        >spatialCoverageVectorConversionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialImageCoordinateConversionService"
+        label="404-Image coordinate conversion service"
+        def="A coordinate transformation or coordinate conversion service to change the coordinate reference system for an image."
+        >spatialImageCoordinateConversionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialRectificationService"
+        label="05-Rectification service"
+        def="Service for transforming an image into a perpendicular parallel projection and therefore a constant scale."
+        >spatialRectificationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialOrthorectificationService"
+        label="406-Orthorectification service"
+        def="A rectification service that removes image tilt and displacement due to terrain elevation."
+        >spatialOrthorectificationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialSensorGeometryModelAdjustmentService"
+        label="407-Sensor geometry model adjustment service"
+        def="Service that adjusts sensor geometry models to improve the match of the image with other images and/or known ground positions."
+        >spatialSensorGeometryModelAdjustmentService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialImageGeometryModelConversionService"
+        label="408-Image geometry model conversion service"
+        def="Service that converts sensor geometry models into a different but equivalent sensor geometry model."
+        >spatialImageGeometryModelConversionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialSubsettingService"
+        label="409-Subsetting service"
+        def="Service that extracts data from an input in a continuous spatial region either by geographic location or by grid coordinates."
+        >spatialSubsettingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialSamplingService"
+        label="410-Sampling service"
+        def="Service that extracts data from an input using a consistent sampling scheme either by geographic location or by grid coordinates."
+        >spatialSamplingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialTilingChangeService"
+        label="411-Tiling change service" def="Service that changes the tiling of geographic data."
+        >spatialTilingChangeService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialDimensionMeasurementService"
+        label="412-Dimension measurement service"
+        def="Service to compute dimensions of objects visible in an image or other geodata."
+        >spatialDimensionMeasurementService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialFeatureManipulationService"
+        label="413-Feature manipulation services"
+        def="Register one feature to another, an image, or another data set or coordinate set; correcting for relative translation shifts, rotational differences, scale differences, and perspective differences. Verify that all features in the Feature Collection are topologically consistent according to the topology rules of the Feature Collection, and identifies and/or corrects any inconsistencies that are discovered."
+        >spatialFeatureManipulationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialFeatureMatchingService"
+        label="414-Feature matching service"
+        def="Service that determines which features and portions of features represent the same real world entity from multiple data sources, e.g., edge matching and limited conflation."
+        >spatialFeatureMatchingServic</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialFeatureGeneralizationService"
+        label="415-Feature generalisation service"
+        def="Service that reduces spatial variation in a feature collection to increase the effectiveness of communication by counteracting the undesirable effects of data reduction."
+        >spatialFeatureGeneralizationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialRouteDeterminationService"
+        label="416-Route determination service"
+        def="Service to determine the optimal path between two specified points based on the input parameters and properties contained in the Feature Collection."
+        >spatialRouteDeterminationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialPositioningService"
+        label="417-Positioning service"
+        def="Service provided by a position-providing device to use, obtain and unambiguously interpret position information, and determines whether the results meet the requirements of the use."
+        >spatialPositioningService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/spatialProximityAnalysisService"
+        label="418-Proximity analysis service"
+        def="Given a position or geographic feature, finds all objects with a given set of attributes that are located within a user-specified distance of the position or feature."
+        >spatialProximityAnalysisService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicProcessingService"
+        label="500-Geographic processing services – thematic" def="">thematicProcessingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicGoparameterCalculationService"
+        label="501-Geoparameter calculation service"
+        def="Service to derive application-oriented quantitative results that are not available from the raw data itself."
+        >thematicGoparameterCalculationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicClassificationService"
+        label="502-Thematic classification service"
+        def="Service to classify regions of geographic data based on thematic attributes."
+        >thematicClassificationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicFeatureGeneralizationService"
+        label="503-Feature generalisation service"
+        def="Service that generalises feature types in a feature collection to increase the effectiveness of communication by counteracting the undesirable effects of data reduction."
+        >thematicFeatureGeneralizationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicSubsettingService"
+        label="504-Subsetting service"
+        def="Service that extracts data from an input based on parameter values."
+        >thematicSubsettingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicSpatialCountingService"
+        label="505-Spatial counting service" def="Service that counts geographic features."
+        >thematicSpatialCountingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicChangeDetectionService"
+        label="506-Change detection service"
+        def="Service to find differences between two data sets that represent the same geographical area at different times."
+        >thematicChangeDetectionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicGeographicInformationExtractionService"
+        label="507-Geographic information extraction services"
+        def="Services supporting the extraction of feature and terrain information from remotely sensed and scanned images."
+        >thematicGeographicInformationExtractionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicImageProcessingService"
+        label="508-Image processing service"
+        def="Service to change the values of thematic attributes of an image using a mathematical function."
+        >thematicImageProcessingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicReducedResolutionGenerationService"
+        label="509-Reduced resolution generation service"
+        def="Service that reduces the resolution of an image."
+        >thematicReducedResolutionGenerationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicImageManipulationService"
+        label="510-Image Manipulation Services"
+        def="Services for manipulating data values in images: changing colour and contrast values, applying various filters, manipulating image resolution, noise removal, striping, systematic-radiometric corrections, atmospheric attenuation, changes in scene illumination, etc."
+        >thematicImageManipulationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicImageUnderstandingService"
+        label="511-Image understanding services"
+        def="Services that provide automated image change detection, registered image differencing, significance-of-difference analysis and display, and area-based and model-based differencing."
+        >thematicImageUnderstandingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicImageSynthesisService"
+        label="512-Image synthesis services"
+        def="Services for creating or transforming images using computer-based spatial models, perspective transformations, and manipulations of image characteristics to improve visibility, sharpen resolution, and/or reduce the effects of cloud cover or haze."
+        >thematicImageSynthesisService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicMultibandImageManipulationService"
+        label="513-Multiband image manipulation"
+        def="Services that modify an image using the multiple bands of the image."
+        >thematicMultibandImageManipulationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicObjectDetectionService"
+        label="514-Object detection service" def="Service to detect real-world objects in an image."
+        >thematicObjectDetectionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicGeoparsingService"
+        label="515-Geoparsing service"
+        def="Service to scan text documents for location-based references, such as a place names, addresses, postal codes, etc., in preparation for passage to a geocoding service."
+        >thematicGeoparsingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/thematicGeocodingService"
+        label="516-Geocoding service"
+        def="Service to augment location-based text references with geographic coordinates (or some other spatial reference)."
+        >thematicGeocodingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/temporalProcessingService"
+        label="600-Geographic processing services – temporal" def="">temporalProcessingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/temporalReferenceSystemTransformationService"
+        label="601-Temporal reference system transformation service"
+        def="Service to change the values of temporal instances from one temporal reference system to another temporal reference system."
+        >temporalReferenceSystemTransformationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/temporalSubsettingService"
+        label="602-Subsetting service"
+        def="Service that extracts data from an input in a continuous interval based on temporal position values."
+        >temporalSubsettingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/temporalSamplingService"
+        label="603-Sampling service"
+        def="Service that extracts data from an input using a consistent sampling scheme based on temporal position values."
+        >temporalSamplingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/temporalProximityAnalysisService"
+        label="604-Temporal proximity analysis service"
+        def="Given a temporal interval or event, find all objects with a given set of attributes that are located within a user-specified interval from the interval or event."
+        >temporalProximityAnalysisService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/metadataProcessingService"
+        label="700-Geographic processing services – metadata" def="">metadataProcessingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/metadataStatisticalCalculationService"
+        label="701-Statistical calculation service"
+        def="Service to calculate the statistics of a data set."
+        >metadataStatisticalCalculationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/metadataGeographicAnnotationService"
+        label="702-Geographic annotation services"
+        def="Services to add ancillary information to an image or a feature in a feature collection."
+        >metadataGeographicAnnotationService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/comService"
+        label="800-Geographic communication services">comService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/comEncodingService"
+        label="801-Encoding service"
+        def="Service that provides implementation of an encoding rule and provides an interface to encoding and decoding functionality."
+        >comEncodingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/comTransferService"
+        label="802-Transfer service"
+        def="Service that provides implementation of one or more transfer protocols, which allows data transfer between distributed information systems over offline or online communication media."
+        >comTransferService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/comGeographicCompressionService"
+        label="803-Geographic compression service"
+        def="Service that converts spatial portions of a feature collection to and from compressed form."
+        >comGeographicCompressionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/comGeographicFormatConversionService"
+        label="804-Geographic format conversion service"
+        def="Service that converts from one geographic data format to another."
+        >comGeographicFormatConversionService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/comMessagingService"
+        label="805-Messaging service"
+        def="Service that allows multiple users to simultaneously view, comment about, and request edits of feature collections."
+        >comMessagingService</cat>
+    <cat xml:lang="en"
+        id="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/comRemoteFileAndExecutableManagement"
+        label="806-Remote file and executable management"
+        def="Service that provides access to secondary storage of geographic features as if it were local to the client."
+        >comRemoteFileAndExecutableManagement</cat>
+</SpatialDataServiceCategory>
